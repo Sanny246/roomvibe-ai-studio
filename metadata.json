@@ -1,0 +1,6 @@
+{
+  "name": "RoomVibe｜我的 AI 居家設計室",
+  "description": "AI 輔助的 3D 室內空間與家具擺放模擬網站，支援拍照分析房間結構、3D 互動空間、日系北歐家具模擬擺放及匯出設計。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

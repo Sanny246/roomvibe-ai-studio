@@ -1,0 +1,7 @@
+name = "roomvibe-ai-proxy"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# 注意：請勿將 GEMINI_API_KEY 寫在此處！
+# 請在終端機執行：npx wrangler secret put GEMINI_API_KEY
+# 或至 Cloudflare 控制台 -> Workers -> Settings -> Variables -> Secrets 新增。
