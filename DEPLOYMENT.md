@@ -22,14 +22,14 @@
 ## 二、部署至 GitHub Pages（三步驟完成）
 
 ### 步驟 1：建立 GitHub 儲存庫並推送程式碼
-在您的本機或 GitHub 上建立一個新的公開（Public）或私有（Private）Repository（例如名為 `roomvibe`），並將專案檔案推送至 `main` 分支：
+在您的本機或 GitHub 上建立一個新的公開（Public）或私有（Private）Repository（名為 `roomvibe-ai-studio`），並將專案檔案推送至 `main` 分支：
 
 ```bash
 git init
 git add .
 git commit -m "feat: initial RoomVibe 3D app"
 git branch -M main
-git remote add origin https://github.com/<您的GitHub帳號>/roomvibe.git
+git remote add origin https://github.com/<您的GitHub帳號>/roomvibe-ai-studio.git
 git push -u origin main
 ```
 
@@ -43,7 +43,7 @@ git push -u origin main
 ### 步驟 3：自動建置與發布
 - 當您推送代碼至 `main` 分支時，內建的 `.github/workflows/deploy.yml` 將會自動觸發並完成構建。
 - 約 1-2 分鐘後，即可在 **Settings > Pages** 看到您的專屬網址：
-  👉 `https://<您的GitHub帳號>.github.io/roomvibe/`
+  👉 `https://<您的GitHub帳號>.github.io/roomvibe-ai-studio/`
 
 ---
 
